@@ -33,4 +33,4 @@ This case study is currently under development. Further details, including proje
 
 ---
 
-*Part of the UuAP Case Study series — [See Case Study 1](https://github.com/DemkyDev/uuap-case-study-1)*
+*Part of the UuAP Case Study series — [See Case Study 1](https://github.com/demirhalilbasic/uuap-case-study-1)*
