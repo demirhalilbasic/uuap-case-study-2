@@ -1,0 +1,8 @@
+ANOVA test: uticaj tipa smještaja na cijenu
+==================================================
+Athens: ANOVA F=64.38, p=2.556e-41
+Malaga: ANOVA F=715.29, p=0.000e+00
+Istanbul: ANOVA F=1294.40, p=0.000e+00
+Naples: ANOVA F=63.52, p=1.236e-40
+Rome: ANOVA F=651.32, p=0.000e+00
+Valencia: ANOVA F=1452.11, p=0.000e+00

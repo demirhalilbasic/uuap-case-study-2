@@ -1,0 +1,34 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_price   R-squared:                       0.308
+Model:                            OLS   Adj. R-squared:                  0.307
+Method:                 Least Squares   F-statistic:                     481.0
+Date:                Thu, 21 May 2026   Prob (F-statistic):               0.00
+Time:                        23:29:54   Log-Likelihood:                -5401.1
+No. Observations:               10819   AIC:                         1.082e+04
+Df Residuals:                   10808   BIC:                         1.090e+04
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+================================================================================================
+                                   coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+Intercept                        4.3444      0.006    737.946      0.000       4.333       4.356
+C(room_type)[T.Hotel room]       0.5394      0.069      7.857      0.000       0.405       0.674
+C(room_type)[T.Private room]    -0.2769      0.018    -15.363      0.000      -0.312      -0.242
+C(room_type)[T.Shared room]     -1.1146      0.082    -13.625      0.000      -1.275      -0.954
+distance_from_center            -0.1188      0.004    -30.501      0.000      -0.126      -0.111
+accommodates                     0.1118      0.006     20.135      0.000       0.101       0.123
+bedrooms                         0.0704      0.005     12.918      0.000       0.060       0.081
+amenity_count                    0.0342      0.004      8.335      0.000       0.026       0.042
+host_is_superhost                0.0602      0.008      7.332      0.000       0.044       0.076
+review_scores_location           0.1352      0.005     29.158      0.000       0.126       0.144
+review_scores_rating            -0.0179      0.005     -3.755      0.000      -0.027      -0.009
+==============================================================================
+Omnibus:                      259.162   Durbin-Watson:                   1.729
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              298.002
+Skew:                           0.340   Prob(JB):                     1.95e-65
+Kurtosis:                       3.445   Cond. No.                         28.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

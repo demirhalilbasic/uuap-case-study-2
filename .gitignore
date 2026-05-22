@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom
+.idea/
+.DS_Store
+.idea/
+.DS_Store
+
+# Project data directories to keep local only
+/digital_tourism_analysis/data/listings/
+/digital_tourism_analysis/data/neighbourhoods/
+
