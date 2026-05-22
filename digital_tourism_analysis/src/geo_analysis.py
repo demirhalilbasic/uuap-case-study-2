@@ -64,7 +64,7 @@ def run_geo_analysis(city_dfs, all_df):
     plt.close()
 
     print("    - Pokretanje 3D mapiranja geografskih i cjenovnih anomalija...")
-    # Graf 2.5 — 3D scatter plot (Plotly): lat × long × price
+    # GRAF 2.5 — 3D scatter plot (Plotly): lat × long × price
     for city, df in city_dfs.items():
         if 'latitude' in df.columns and 'longitude' in df.columns:
             sample_df = df.sample(n=min(3000, len(df)), random_state=42)
